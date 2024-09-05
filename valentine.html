@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+ 
+  </head>
+  <body class=" ">
+    <header class="d-flex   shadow-lg p-3 mb-5   rounded">
+      <div>
+          <img width="300" class="img-fluid w-4" src="image/banner.png" alt="">
+
+      </div>
+
+
+      <div class="text-  ms-3 me-3">
+          <h1 class="text-center fw-bold">PCIU Football Shop</h1>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><b>Home</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="upcominh.html"><button class="btn btn-info">Upcoming Match</button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="math.html"><b>Transfer</b></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="valentine.html"><b>SHOP</b></a>
+                    </li>
+                  
+                    
+                   
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsam, quaerat reiciendis vero sed corporis nostrum ad consequuntur molestiae beatae dolor velit laudantium facere! Aut perspiciatis earum nemo consequatur soluta!</p>
+      </div>
+      <div class="text-end">
+          <img width="150" class="img-fluid" src="image/gg.jpg" alt="">
+
+      </div>
+  </header>
+    
+
+    <div class="shop-container d-flex justify-content-around">
+      <div>
+        <div class="rose p-2 box shadow  mb-5">
+          <img class="logo mb-3" src="image/boot.jfif" width="150px" alt="" />
+          <h6>   Football Boot</h6>
+          <h5>Price: <span id="kitkat-price"> 200</span></h5>
+          <input id="kitkat-quantity"type="number" placeholder="type here Quantity"/>
+          <br /> <br>
+          <button   id="kitkat-buy-btn" class="buy-btn btn btn-primary">
+            Buy Now
+          </button>
+        </div>
+
+
+
+        <div class="rose p-3 box shadow  mb-5 ">
+          <img class="logo" src="image/football-background_1035-229.avif" width="150px" alt="" />
+          <h6>Football</h6>
+          <h5>Price: <span id="rose-price"> 100</span></h5>
+          <input id="rose-quantity" type="number" placeholder="type here Quantity"/><br><br>
+          <button id="rose-buy-btn" class="buy-btn btn btn-primary">Buy Now</button>
+        </div>
+
+        <div class="diary p-3 box shadow ">
+          <img class="logo" src="image/jersy.jpg" width="150px" alt="" />
+          <h6>Jersy</h6>
+          <h5>Price: <span id="diary-price"> 100</span></h5>
+          <input id="diary-quantity" type="number" placeholder="type here Quantity"/> <br><br>
+          <button id="diary-buy-btn" class="buy-btn btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+      <div class="money-tracker text-center">
+        <h4> Football Boot: <span id="chocolate"> 00</span></h4>
+        <hr />
+        <h4>Football: <span id="rose"> 00</span></h4>
+        <hr />
+        <h4>Jersy: <span id="diary"> 00</span></h4>
+        <hr />
+        <h3>Total: <span id="total"> 00</span></h3>
+
+        <div class="promo-code mt-3 text-center p-3">
+          <h5 class="bg-info mt-2">Use Promo Code for 10% Discount</h5>
+          <input
+            id="promo-code" class="p-2 mt-2"  type="text" placeholder=101 />
+          <button id="Apply" class="btn btn-primary" type="button"> Apply</button>
+        </div>
+        <h2 class="mt-5">ALL COST :<span id="all-total"> 00</span></h2>
+      </div>
+    </div>
+
+    <!-- add javascript  -->
+    <script src="valentin.js"></script>
+    <!-- <script src="valentin.js"></script> -->
+<!-- 
+  <script src="utillities.js"></script>  
+  <script src="choklet.js"></script> -->
+ 
+    <script src="rose.js"></script>
+    <script src="diary.js"></script>  
+  </body>
+</html>
