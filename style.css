@@ -10,17 +10,19 @@ body{
    
     background-color: black;
     color: white;
-    border-radius: 5px;
-    margin-left: 70px;
-    margin-top: 60px;
-    padding: 50px;
+   ;
+    margin-right: 0;
+    margin-top: 15px;
+    padding-right: 380px;
+    
+   
     margin-bottom: 100px;
     width: 80%
 }
 .container{
   perspective: 320px;
 }
-.btn{
+ .btnn{
   display: block;
   width: 250px;
   height: 40px;
@@ -33,12 +35,12 @@ body{
   outline: none;
   cursor: pointer;
   transition: .3s linear;
-}
-.btn:hover{
+} 
+.btnn:hover{
     transform: rotateX(20deg);
     box-shadow: 0 8px 15px black;
-    background-color: darkcyan;
-}
+    background-color: darkcyan;}
+
 
  .banner-img:hover{
     transform: scale(1.2);
@@ -75,15 +77,36 @@ body{
   .box{
     display: grid;
     grid-template-columns: repeat(1,1fr); 
-    border: 5px solid black; 
+    border: 5px solid rgb(175, 102, 102); 
     padding:0px 20px;
     height: 250px;   
     margin-left: 20px; 
-    background: #161616;
+    background: #836d6d;
     border-radius: 10px;
+    
 }  
+.btn-home{
+    background-color: rgb(221, 204, 181);
+}
+ .btn-transfer{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(230, 166, 77);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+    border: #DD0000;
+ }
+ .btn-transfer:hover{
  
- 
+    transform: rotateX(-40deg);
+    box-shadow: 0 8px 15px black;
+    background-color: rgb(219, 110, 83);}
  
 .upcoming-match button{
     padding: 15px 21px; 
